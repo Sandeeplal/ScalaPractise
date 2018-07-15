@@ -3,13 +3,13 @@ package com.Sorting
 object Solution {
 
   def main(args: Array[String]) {
-    val sc = new java.util.Scanner(System.in);
-    var n = sc.nextInt();
-    var a = new Array[Int](n);
+    val sc = new java.util.Scanner(System.in)
+    var n = sc.nextInt()
+    var a = new Array[Int](n)
     for (a_i <- 0 to n - 1) {
-      a(a_i) = sc.nextInt();
+      a(a_i) = sc.nextInt()
     }
-    var numberOfSwaps = 0;
+    var numberOfSwaps = 0
     var flag = 0
     var temp = 0
     for (i <- 0 until n; if flag != 1) {
@@ -21,7 +21,7 @@ object Solution {
           temp = a(j)
           a(j) = a(j + 1)
           a(j + 1) = temp
-          numberOfSwaps += 1;
+          numberOfSwaps += 1
         }
       }
 
