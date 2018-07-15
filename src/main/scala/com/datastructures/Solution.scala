@@ -4,7 +4,7 @@ import scala.collection.mutable
 import scala.collection.mutable.Stack
 import scala.collection.mutable.Queue
 import scala.util.control._
-
+// for learning queues and stacks
 object Solution {
   def main(args: Array[String]) {
     // read the string s
